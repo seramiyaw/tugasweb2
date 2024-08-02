@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('images/Doraemon.jpeg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #000;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .favorite-movies h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .favorite-movies p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .favorite-movies ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .favorite-movies ul li {
+            background-color: #ffefef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .video-link {
+            margin-top: 20px;
+        }
+
+        .video-link a {
+            color: #ffffff;
+            background-color: #ff6b6b;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .video-link a:hover {
+            background-color: #ff4b4b;
+        }
+
+        .navigation {
+            margin-top: 20px;
+        }
+
+        .navigation a {
+            color: #ffffff;
+            background-color: #f76c6c;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .navigation a:hover {
+            background-color: #f54b4b;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f76c6c;
+            color: white;
+        }
+
+        td img {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="favorite-movies">
+            <h1>Film Kesukaan</h1>
+            <ul>
+                <li>
+                    <div class="video-link">
+                        <a href="https://youtu.be/2eUI0XO6jg0?si=HcV7wLnZAtunAfcG" target="_blank">Doraemon</a>
+                    </div>
+                    <p>Sebuah manga dan anime populer yang dikarang Fujiko F. Fujio <i>(藤子・F・不二)</i>, nama asli: Hiroshi Fujimoto) sejak Desember 1969. Berkisah tentang kehidupan seorang anak <del>pemalas</del> kelas <sup> 5</sup> sekolah dasar yang<u> bernama Nobita Nobi</u> <i>> (野比のび太)</i> yang didatangi oleh yang bernama <strong>Doraemon</strong> dari abad ke-22. Doraemon dikirim untuk menolong Nobita agar keturunannya dapat menikmati kesuksesannya daripada harus menderita dari utang finansial yang akan terjadi pada masa depan karena kebodohan Nobita.</p>
+                </li>
+            </ul>
+            <table>
+                <tr>
+                    <th colspan="4"> <b>KARAKTER TOKOH</b></th>
+                </tr>
+                <tr>
+                    <td>No</td>
+                    <td>Images</td>
+                    <td>Nama</td>
+                    <td>Penjelasan</td>
+                </tr>
+                <tr>
+                    <td>i</td>
+                    <td><img src="images/doraemon.jpeg" alt="Doraemon" width="170" height="125"></td>
+                    <td><mark>Doraemon</mark></td>
+                    <td>Doraemon adalah robot kucing berwarna biru yang berasal dari abad ke-22. Ia pergi ke abad ke-20 untuk menolong Nobita. Ia sangat suka kue Dorayaki dan sering membantu Nobita saat berada dalam kesusahan.</td>
+                </tr>
+                <tr>
+                    <td>ii</td>
+                    <td><img src="images/nobita.jpeg" alt="Nobita" width="170" height="125"></td>
+                    <td><mark>Nobita</mark></td>
+                    <td>Nobita adalah anak pemalas yang sering menjadi korban bullying teman-temannya. Ia sering kali bergantung pada Doraemon untuk menyelesaikan masalahnya.</td>
+                </tr>
+                <tr>
+                    <td>iii</td>
+                    <td><img src="images/sakura.jpeg" alt="Sakura" width="170" height="125"></td>
+                    <td><mark>Sakura</mark></td>
+                    <td>Sakura adalah karakter yang sering muncul sebagai teman Nobita dan Doraemon.</td>
+                </tr>
+                <tr>
+                    <td>iv</td>
+                    <td><img src="images/jayen.jpeg" alt="Jayen" width="170" height="125"></td>
+                    <td><mark>Jayen</mark></td>
+                    <td>Jayen adalah karakter yang kuat dan sering kali menjadi teman yang baik bagi Nobita.</td>
+                </tr>
+                <tr>
+                    <td>v</td>
+                    <td><img src="images/suneo.jpeg" alt="Suneo" width="170" height="125"></td>
+                    <td><mark>Suneo</mark></td>
+                    <td>Suneo adalah anak yang suka memamerkan kekayaannya dan sering kali membuat Nobita iri.</td>
+                </tr>
+                <dl>
+                  <dt>saya memilih film favorit doraemon</dt>
+                  <dd>menurut saya film ini sangat menghibur saya apalagi dengan <del>kebodohan</del> Nobita</dd>
+                </dl>
+            </table>
+        </div>
+        
+        <div class="navigation">
+            <a href="index.html">Biodata Diri</a>
+        </div>
+    </div>
+</body>
+</html>
